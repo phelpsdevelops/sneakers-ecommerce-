@@ -9,8 +9,11 @@ html,body{
 nav{
     display: flex;
     width: 80%;
+    height: 70px;
     justify-content: space-between;
-    border-bottom: 2px solid black;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid hsl(220, 14%, 75%);
 }
 header{
     display: flex;
@@ -26,7 +29,14 @@ ul{
 }
 .firstUl{
     width:55%;
+     color:hsl(219, 9%, 45%);
 }
 .secondUl{
     width: 10%;
+    display: flex;
+    align-items: center;
+    
+}
+#title{
+    color: black;
 }
