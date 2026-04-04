@@ -20,7 +20,15 @@ header{
     justify-content: center;
 }
 main{
-
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#mainSec1{
+    width: 40%;
+}
+#mainSec2{
+    width: 40%;
 }
 ul{
     list-style: none;
@@ -39,4 +47,9 @@ ul{
 }
 #title{
     color: black;
+}
+.subImageSec{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
 }
