@@ -20,15 +20,19 @@ header{
     justify-content: center;
 }
 main{
+    padding-top: 75px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #mainSec1{
-    width: 40%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
 }
 #mainSec2{
-    width: 40%;
+    width: 35%;
 }
 ul{
     list-style: none;
@@ -49,7 +53,7 @@ ul{
     color: black;
 }
 .subImageSec{
-    width:100%;
-    display: flex;
-    justify-content: flex-start;
+   width: 100%;
+   display: flex;
+  justify-content: space-between;
 }
